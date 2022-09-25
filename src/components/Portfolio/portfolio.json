@@ -1,0 +1,46 @@
+[
+    {
+        "cover":"assets/flight.png",
+        "title":"Airport Project",
+        "git":"https://github.com/ShonZimkov/React-Django-Airport",
+        "url":"",
+        "description1":"I developed my own flight booking system using Django for the beckend functions and data management and for the Frontend I used React and Redux. ",
+        "description2":"There is account management that allows airline companies to publish and edit flights .",
+        "description3":"Moreover , customers can order tickets and admins with authorization can have all the needed functions . ",
+        "description4":"The system contains 4 different facades (Anonymus, Customer, Airline, Admin). ",
+        "description5":"There is an authorization for each of the facades that allows them to use the relevant functions."
+    },
+    {
+        "cover":"assets/maple.png",
+        "title":"ShonStory",
+        "git":"https://github.com/ShonZimkov/Pygame-ShonStory",
+        "url":"",
+        "description1":"I developed a game using Python and Pygame.",
+        "description2":"This game is built on a circular style system and it allows the player to enjoy goal achievement and progression.",
+        "description3":"In addition, it offers the player a variety of skills and abilities to advance in the game and fight stronger enemies.",
+        "description4":"I created functions that will keep the game playable and enjoyable like:",
+        "description5":"lvl ups , power ups, money (mesos) and shop and for the end game there is a very strong boss you need to deafeat."
+    },
+    {
+        "cover":"assets/japan.png",
+        "title":"Japanese Learning",
+        "git":"https://github.com/ShonZimkov/Japanese_Site",
+        "url":"",
+        "description1":"I developed a Japanese self Learning Site with Angular and Node.js.",
+        "description2":"For the past year i started learning the japanese language and culture.",
+        "description3":"I Wanted to build a site that would help me learn japanese better and because my notebook ran out there was no better time to do it.",
+        "description4":"By that, I developed quiz games that contain various functions like:",
+        "description5":"Add new words when learning,  Search from the learnt words, Quiz on the learnt words (From English and From Japanese), Translate to japanese through different images and reading comprehension with questions."
+    },
+    {
+        "cover":"assets/movie.png",
+        "title":"ShonFlix",
+        "git":"https://github.com/ShonZimkov/ShonFlix--Movieapp",
+        "url":"",
+        "description1":"This Project was done using React and connecting to an API.",
+        "description2":"I Learned how to use API correctly and how to display is beautifully.",
+        "description3":"The App offers a Popluar Movies page where you can look on the latest Hot Movies.",
+        "description4":"On top of that there is an All Movies page where you can go through the whole movie data base with Pagination System.",
+        "description5":"Search Is also available if you want to look for a specific Movie."
+    }
+]
