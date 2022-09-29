@@ -36,7 +36,7 @@
         "cover":"assets/movie.png",
         "title":"ShonFlix",
         "git":"https://github.com/ShonZimkov/ShonFlix--Movieapp",
-        "url":"",
+        "url":"https://shon-flix.web.app/",
         "description1":"This Project was done using React and connecting to an API.",
         "description2":"I Learned how to use API correctly and how to display is beautifully.",
         "description3":"The App offers a Popluar Movies page where you can look on the latest Hot Movies.",
