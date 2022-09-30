@@ -39,7 +39,7 @@ const Portfolio = () => {
                                         alt="portfolio" />
                                     <div className="content">
                                         <p className="title">{port.title}</p>
-                                        {port.url !== "" && <button
+                                        {port.url && <button
                                             className="btn"
                                             onClick={() => window.open(port.url)}
                                         >View</button>}
