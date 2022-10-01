@@ -33,10 +33,12 @@ const Portfolio = () => {
                         return (
                             <div key={idx} className="divmid">
                                 <div className="image-box" key={idx}>
+
                                     <img
                                         src={port.cover}
                                         className="portfolio-image"
                                         alt="portfolio" />
+
                                     <div className="content">
                                         <p className="title">{port.title}</p>
                                         {port.url && <button
@@ -51,12 +53,12 @@ const Portfolio = () => {
                                 </div >
                                 {/* <div className="divcol"> */}
                                 <div className="description">
-                                    <h1>{port.title}</h1><br/>
-                                    {port.description1 || ""}<br/>
-                                    {port.description2 || ""}<br/>
-                                    {port.description3 || ""}<br/>
-                                    {port.description4 || ""}<br/>
-                                    {port.description5 || ""}
+                                    <h1>{port.title}</h1><br />
+                                    <p>{port.description1 || ""}<br />
+                                    {port.description2 || ""}<br />
+                                    {port.description3 || ""}<br />
+                                    {port.description4 || ""}<br />
+                                    {port.description5 || ""}</p>
                                 </div>
                                 {/* </div> */}
                             </div>

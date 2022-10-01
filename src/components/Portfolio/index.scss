@@ -27,6 +27,7 @@
         width: 50%;
         overflow: hidden;
         border-radius: 10px;
+        
         // max-width: calc(25% - 10px);
 
         .portfolio-image {
@@ -35,6 +36,7 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
+            
         }
 
         .content {
@@ -137,7 +139,14 @@
 
 @media screen and (max-width: 1200px) {
     .divmid{
-        display: block;
-        flex-direction: column;
+    flex-wrap: wrap;
+    }
+    .image-box{
+      order: 1;
+      margin-left: 100px;
+        
+    }
+    .description{
+        order: 2;
     }
 }
