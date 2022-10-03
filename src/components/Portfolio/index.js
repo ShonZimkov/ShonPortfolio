@@ -23,7 +23,22 @@ const Portfolio = () => {
     useEffect(() => {
         setPortfolio(porfolioData)
     }, []);
+    
 
+    const onButtonClick = () => {
+        // using Java Script method to get PDF file
+        fetch('ShonStory-win64.msi').then(response => {
+            response.blob().then(blob => {
+                // Creating new object of PDF file
+                const fileURL = window.URL.createObjectURL(blob);
+                // Setting various property values
+                let alink = document.createElement('a');
+                alink.href = fileURL;
+                alink.download = 'ShonStory-win64.msi';
+                alink.click();
+            })
+        })
+    }
 
     const renderPortfolio = (portfolio) => {
         return (
@@ -45,6 +60,10 @@ const Portfolio = () => {
                                             className="btn"
                                             onClick={() => window.open(port.url)}
                                         >View</button>}
+                                        {port.download && <button
+                                            className="btn"
+                                            onClick={() => onButtonClick()}
+                                        >Download</button>}
                                         <button
                                             className="btn"
                                             onClick={() => window.open(port.git)}
